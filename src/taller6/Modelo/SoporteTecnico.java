@@ -10,8 +10,10 @@ package taller6.Modelo;
  */
 public class SoporteTecnico extends Usuario{
 
-    public SoporteTecnico() {
+    public SoporteTecnico(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
     }
+
 
     public void brindarAsistencia(Usuario usuario){
 

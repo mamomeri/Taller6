@@ -10,8 +10,11 @@ package taller6.Modelo;
  */
 public class Profesor extends PersonalAcademico{
 
-    public Profesor() {
+    public Profesor(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
     }
+
+
     
     public void cargarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa){
 

@@ -10,9 +10,11 @@ package taller6.Modelo;
  */
 public class PersonalAcademico extends Usuario{
 
-    public PersonalAcademico() {
+    public PersonalAcademico(String usuario, String contraseña, String nombre, String apellido) {
+        super(usuario, contraseña, nombre, apellido);
     }
-    
+
+
     public void reportarError(String email,String contenido){
 
     } 
