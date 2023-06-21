@@ -4,4 +4,5 @@
 
 
 # Diagrama de Secuencia de caso 2
-[imagen.png](https://postimg.cc/8sc90Dzh)
+
+[![imagen.png](https://i.postimg.cc/gcHpr29B/imagen.png)](https://postimg.cc/8sc90Dzh)
