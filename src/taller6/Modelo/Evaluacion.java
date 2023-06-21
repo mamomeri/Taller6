@@ -9,5 +9,10 @@ package taller6.Modelo;
  * @author CltControl
  */
 public class Evaluacion {
+    private int limiteDeTiempo;
+
+    public Evaluacion(int limiteDeTiempo) {
+        this.limiteDeTiempo = limiteDeTiempo;
+    }
     
 }

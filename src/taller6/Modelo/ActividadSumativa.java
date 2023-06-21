@@ -3,11 +3,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package taller6.Modelo;
-
+import java.time.LocalDate;
 /**
  *
  * @author CltControl
  */
 public class ActividadSumativa {
+    protected String titulo;
+    protected LocalDate fechaDeEntrega;
+    protected float puntajeMaximo;
+    protected String contenido;
+    protected float calificacion;
+    protected String id;
+
+    public ActividadSumativa(String titulo, LocalDate fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id) {
+        this.titulo = titulo;
+        this.fechaDeEntrega = fechaDeEntrega;
+        this.puntajeMaximo = puntajeMaximo;
+        this.contenido = contenido;
+        this.calificacion = calificacion;
+        this.id = id;
+    }
     
 }

@@ -4,17 +4,36 @@
  */
 package taller6;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.time.LocalDate;
 /**
  *
  * @author DELL
  */
 public class Incidente {
 
-    /**
-     * @param args the command line arguments
-     */
+
+    protected int id;
+    protected LocalDate  fecha_reportado;
+    protected String estado;
+    protected String titulo;
+    protected String descripcion;
+    protected List<String> log_actualizaciones;
+    protected LocalDate fecha_cerrado;
+    protected String tipo;
+
+    
+    
+    public Incidente() {
+        log_actualizaciones  = new ArrayList<String>();
+    }
+    
+    
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
     }
     
 }
