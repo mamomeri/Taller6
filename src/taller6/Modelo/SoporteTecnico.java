@@ -8,6 +8,19 @@ package taller6.Modelo;
  *
  * @author CltControl
  */
-public class SoporteTecnico {
+public class SoporteTecnico extends Usuario{
+
+    public SoporteTecnico() {
+    }
+
+    public void brindarAsistencia(Usuario usuario){
+
+    } 
+    public void resolverProblemaTecnico(Usuario usuario){
+
+    } 
+    public void derivarProblemaDeGestion(Administrador administrador){
+
+    } 
     
 }

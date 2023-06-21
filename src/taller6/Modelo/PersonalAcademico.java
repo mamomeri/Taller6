@@ -8,6 +8,18 @@ package taller6.Modelo;
  *
  * @author CltControl
  */
-public class PersonalAcademico {
+public class PersonalAcademico extends Usuario{
+
+    public PersonalAcademico() {
+    }
     
+    public void reportarError(String email,String contenido){
+
+    } 
+     public void solicitarAsesoramientoDelSistema(String email,String contenido){
+
+    }
+     public void comentarEnForo(Foro foro, String comentario){
+
+    } 
 }

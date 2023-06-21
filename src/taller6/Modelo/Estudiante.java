@@ -8,6 +8,16 @@ package taller6.Modelo;
  *
  * @author CltControl
  */
-public class Estudiante {
+public class Estudiante extends PersonalAcademico{
+
+    public Estudiante() {
+    }
     
+    public void solicitarInscripcionCurso(Curso curso){
+
+    } 
+    public void realizarActividadSumativa(Curso curso,ActividadSumativa  actividadSumativa){
+
+    } 
+
 }
