@@ -14,5 +14,7 @@ public class Evaluacion {
     public Evaluacion(int limiteDeTiempo) {
         this.limiteDeTiempo = limiteDeTiempo;
     }
+
+   
     
 }

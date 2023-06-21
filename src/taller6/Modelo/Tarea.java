@@ -4,10 +4,17 @@
  */
 package taller6.Modelo;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author CltControl
  */
 public class Tarea {
+    private LocalDate fechaPublicacion;
+
+    public Tarea(LocalDate fechaPublicacion) {
+        this.fechaPublicacion = fechaPublicacion;
+    }
     
 }

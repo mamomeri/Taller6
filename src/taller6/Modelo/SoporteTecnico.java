@@ -4,15 +4,20 @@
  */
 package taller6.Modelo;
 
+import java.util.List;
+import taller6.Incidente;
+
 /**
  *
  * @author CltControl
  */
 public class SoporteTecnico extends Usuario{
 
-    public SoporteTecnico(String usuario, String contraseña, String nombre, String apellido) {
-        super(usuario, contraseña, nombre, apellido);
+    public SoporteTecnico(String usuario, String contraseña, String nombre, String apellido, List<Incidente> incidentes) {
+        super(usuario, contraseña, nombre, apellido, incidentes);
     }
+
+    
 
 
     public void brindarAsistencia(Usuario usuario){

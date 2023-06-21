@@ -4,15 +4,24 @@
  */
 package taller6.Modelo;
 
+import java.util.ArrayList;
+import java.util.List;
+import taller6.Incidente;
+
 /**
  *
  * @author CltControl
  */
 public class PersonalAcademico extends Usuario{
 
-    public PersonalAcademico(String usuario, String contraseña, String nombre, String apellido) {
-        super(usuario, contraseña, nombre, apellido);
+    protected List<Incidente> incidentesAcademicos;
+
+    public PersonalAcademico(List<Incidente> incidentesAcademicos, String usuario, String contraseña, String nombre, String apellido, List<Incidente> incidentes) {
+        super(usuario, contraseña, nombre, apellido, incidentes);
+        this.incidentesAcademicos = incidentesAcademicos;
     }
+
+   
 
 
     public void reportarError(String email,String contenido){

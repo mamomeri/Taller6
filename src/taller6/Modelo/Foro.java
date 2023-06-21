@@ -12,16 +12,17 @@ public class Foro {
     private String id;
     private String tematica;
     private int numeroComentarios;
+    private Curso curso;
 
-    public Foro() {
-    }
-
-    public Foro(String id, String tematica, int numeroComentarios) {
+    public Foro(String id, String tematica, int numeroComentarios, Curso curso) {
         this.id = id;
         this.tematica = tematica;
         this.numeroComentarios = numeroComentarios;
+        this.curso = curso;
     }
-
+    
+   
+  
     
     
 }

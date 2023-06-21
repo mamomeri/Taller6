@@ -7,6 +7,8 @@ package taller6;
 import java.util.ArrayList;
 import java.util.List;
 import java.time.LocalDate;
+import taller6.Modelo.PersonalAcademico;
+import taller6.Modelo.Usuario;
 /**
  *
  * @author DELL
@@ -22,12 +24,9 @@ public class Incidente {
     protected List<String> log_actualizaciones;
     protected LocalDate fecha_cerrado;
     protected String tipo;
-
+    private Usuario responsable;
+    protected PersonalAcademico beneficiario;
     
-    
-    public Incidente() {
-        log_actualizaciones  = new ArrayList<String>();
-    }
     
     
     
@@ -35,5 +34,7 @@ public class Incidente {
         
         
     }
+
+    
     
 }

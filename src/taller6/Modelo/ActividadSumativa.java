@@ -8,21 +8,24 @@ import java.time.LocalDate;
  *
  * @author CltControl
  */
-public class ActividadSumativa {
+public abstract class ActividadSumativa {
     protected String titulo;
     protected LocalDate fechaDeEntrega;
     protected float puntajeMaximo;
     protected String contenido;
     protected float calificacion;
     protected String id;
+    private Curso curso;
 
-    public ActividadSumativa(String titulo, LocalDate fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id) {
+    public ActividadSumativa(String titulo, LocalDate fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id, Curso curso) {
         this.titulo = titulo;
         this.fechaDeEntrega = fechaDeEntrega;
         this.puntajeMaximo = puntajeMaximo;
         this.contenido = contenido;
         this.calificacion = calificacion;
         this.id = id;
+        this.curso = curso;
     }
+    
     
 }
